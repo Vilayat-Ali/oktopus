@@ -18,3 +18,21 @@ Changes:
  - Made public announcement at LinkedIn group for Rust Programming Language
 
 ==========================================================================================================================================================
+
+VERSION - 0.2.0
+
+===========================================================================================================================================================
+
+---
+ Issue: 2,
+ Issue Link: https://github.com/Vilayat-Ali/oktopus/issues/2,
+ Date: 21st September 2024 (Saturday)
+ Contributors:
+    1. Abhemanyu Sarin
+---
+
+Changes:
+ - Created test and build workflow, triggered on a new release
+ - Created test, build and lint workflows, triggered on all commits and PRs
+ - Created test and lint pre-commit hook
+
