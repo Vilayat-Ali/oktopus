@@ -8,3 +8,4 @@ license.workspace = true
 readme.workspace = true
 
 [dependencies]
+serde = { workspace = true }
