@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+export CARGO_TERM_COLOR=always
+
+echo '+cargo fmt'
+cargo fmt --all
+echo '+cargo test'
+cargo test
+echo '+cargo clippy -- -D warnings'
+cargo clippy -- -D warnings
