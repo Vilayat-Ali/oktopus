@@ -1,0 +1,28 @@
+[workspace]
+members = [
+    "oktopus-node",
+    "oktopus-wallet",
+    "lib/bignum",
+    "structure",
+]
+default-members = [
+    "oktopus-node",
+    "oktopus-wallet"
+]
+exclude = []
+resolver = "2"
+
+[workspace.package]
+description = ""
+authors = [
+    "Syed Vilayat Ali Rizvi <vilayatcodemysite@gmail.com>",
+    "Abhemanyu Sarin <>"
+]
+version = "0.1.0"
+license = "LICENSE"
+readme = "README.md"
+
+[workspace.dependencies]
+tokio = { version = "1.40.0", features = ["full"] }
+rayon = "1.10.0"
+serde = { version = "1.0.210", features = ["derive"] }

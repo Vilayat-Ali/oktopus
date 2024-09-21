@@ -1,0 +1,14 @@
+[package]
+name = "oktopus-node"
+description = ""
+version = "0.1.0"
+edition = "2021"
+authors.workspace = true
+license.workspace = true
+readme.workspace = true
+default-run = "oktopus-node"
+
+[dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+rayon = { workspace = true }
